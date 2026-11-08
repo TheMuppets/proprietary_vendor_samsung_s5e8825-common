@@ -123,7 +123,6 @@ PRODUCT_PACKAGES += \
     sensors.sensorhub \
     libaudioeffectoffload \
     com.google.android.widevine.nonupdatable \
-    gps \
     gpsd \
     tzdaemon \
     tzts_daemon

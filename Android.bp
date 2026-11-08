@@ -2106,15 +2106,6 @@ prebuilt_apex {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "gps",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/hw/gps.sh",
-    filename: "gps.sh",
-    sub_dir: "hw",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "gpsd",
     owner: "samsung",

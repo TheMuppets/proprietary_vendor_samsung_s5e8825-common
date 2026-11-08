@@ -16,7 +16,7 @@ on post-fs-data
     rm /data/vendor/gps/sv_cno.info
 
 # GPS daemon
-service gpsd /vendor/bin/hw/gps.sh
+service gpsd /vendor/bin/hw/gpsd /vendor/etc/gnss/gps.cfg
     class main
     user gps
     group system inet net_raw wakelock
