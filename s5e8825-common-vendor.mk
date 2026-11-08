@@ -133,14 +133,6 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libOpenCL_so_1 \
     vendor_lib64_libOpenCL_so_1_1
 
-ifeq ($(PRODUCT_CHARACTERISTICS),phone)
-
-PRODUCT_PACKAGES += \
-    libqfp_sensortest \
-    libsynaFpSensorTestNwd
-
-endif
-
 ifeq ($(TARGET_HAS_RIL),true)
 
 PRODUCT_COPY_FILES += \
